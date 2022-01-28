@@ -4,33 +4,33 @@
   background-color: #2f303a;
 }
 
-.footer__logo {
+.footer-logo {
   margin-right: 0;
 }
 
-.footer__logo-studio {
+.footer-logo__studio {
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   color: $title-second-text-color;
 }
 
 .footer-address {
   margin-top: 20px;
+}
 
-  &__item:not(:last-child) {
-    margin-bottom: 9px;
-  }
+.footer-address__item:not(:last-child) {
+  margin-bottom: 9px;
+}
 
-  &__link {
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-    color: $title-second-text-color;
-  }
+.footer-address__link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: $title-second-text-color;
 }
 
 .footer-address__link--rgb {
@@ -63,56 +63,54 @@
 
 .footer-social {
   margin-left: 70px;
-
-  &__list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  &__item:not(:last-child) {
-    margin-right: 10px;
-  }
 }
 
-.footer {
-  &__social-link {
-    background-color: rgba(255, 255, 255, 0.1);
-    border: 1px solid #2f303a;
-  }
+.footer-social__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  &__social-icon {
-    fill: $title-second-text-color;
-  }
+.footer-social__item:not(:last-child) {
+  margin-right: 10px;
+}
 
-  &__title {
-    margin-bottom: 20px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: $title-second-text-color;
-  }
+.footer__social-list__link {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid #2f303a;
+}
+
+.footer__social-icon {
+  fill: $title-second-text-color;
+}
+
+.footer__title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $title-second-text-color;
 }
 
 .footer-subscribe {
   margin-left: 93px;
+}
 
-  &__input {
-    width: 358px;
-    height: 50px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: 4px;
-    background-color: #2f303a;
-  }
+.footer-subscribe__input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background-color: #2f303a;
+}
 
-  &__button {
-    display: inline-flex;
-    margin-left: 12px;
-  }
+.footer-subscribe__button {
+  display: inline-flex;
+  margin-left: 12px;
+}
 
-  &__icon {
-    margin-left: 10px;
-  }
+.footer-subscribe__icon {
+  margin-left: 10px;
 }
